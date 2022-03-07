@@ -42,8 +42,8 @@ a {
 
 .home {
     position: absolute;
-    left:78px;
-    top: 100px;
+    left:7%;
+    top: 16%;
     /* bottom:200px; */
     background-color: #E8E8E8;
     border: 2px solid gray;
@@ -54,8 +54,8 @@ a {
 
 .home-orange {
     position: absolute;
-    left:500px;
-    bottom: 220px;
+    left:38%;
+    bottom: 33%;
     background-color:#F58840;   
     width:250px;
     height: 300px;
@@ -178,7 +178,7 @@ th {
      font-family: 'Courier New', Courier, monospace;
      position: relative;
      bottom:100px;
-     left:50px;
+     left:5%;
  }
 
  .tabel-background {
@@ -219,7 +219,7 @@ th {
  .contact {
      position: relative;
      /* background-color: red; */
-     left:750px;
+     left:55%;
      top:-370px;
      width: 430px;
      /* border: 2px solid black; */
