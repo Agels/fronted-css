@@ -164,12 +164,63 @@ border:2px solid #F58840;
      text-indent:100px;
      padding:24px;
  }
+    table {
+    width: 45%;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+}
+th {
+    background-color:#F58840;
+    color:whitesmoke;
+}
+ .tabel {
+     font-family: 'Courier New', Courier, monospace;
+     position: relative;
+     bottom:100px;
+     left:50px;
+ }
+
+ .tabel-background {
+     background-color: #bdbdbd;
+ }
+
+ .mongo {
+     margin-left:5px;
+     border:2px dotted #F58840;
+     width: 65%;
+     border-radius: 5px;
+ }
+
+
+ .react {
+    margin-left:5px;
+    border:2px dotted #F58840;
+    width: 90%;
+    border-radius: 5px;
+}
+
+
+.express {
+    margin-left:5px;
+    border:2px dotted #F58840;
+    width: 75%;
+    border-radius: 5px;
+}
+
+.node {
+    margin-left:5px;
+    border:2px dotted #F58840;
+    width: 65%;
+    border-radius: 5px;
+}
+
 
  .contact {
      position: relative;
      /* background-color: red; */
-     left:500px;
-     bottom:100px;
+     left:750px;
+     top:-370px;
      width: 430px;
      /* border: 2px solid black; */
  }
