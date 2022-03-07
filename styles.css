@@ -1,0 +1,204 @@
+html {
+    background-color: #E5E5E5;
+    scroll-behavior: smooth;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    float:left;
+    padding:2px;
+}
+a {
+    text-decoration: none;
+    color:black;
+}
+.header {
+    width: 90%;
+    margin:auto;
+}
+.navbar {
+    background-color:#E5E5E5;
+    position: fixed;
+    top: 0px;
+    text-indent: 50px;
+    height: 100px;
+    width:90% ;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.navbar ul {
+    margin-left:800px;
+    margin-top:-25px;
+}
+
+.logo {
+    margin-top:20px;
+    font-size: 36px;
+     font-family: 'Dancing Script', cursive;
+}
+
+
+.home {
+    position: absolute;
+    left:78px;
+    top: 100px;
+    /* bottom:200px; */
+    background-color: #E8E8E8;
+    border: 2px solid gray;
+    width: 550px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.home-orange {
+    position: absolute;
+    left:500px;
+    bottom: 220px;
+    background-color:#F58840;   
+    width:250px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.home-text {
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Bitter', serif;
+    font-weight:600 ;
+}
+
+.home-button button {
+    background-color:#E8E8E8 ;
+    height: 30px;
+    width: 100px;
+    border-radius:10%;
+    margin-top:30px;
+    border: 1px solid gray;
+}
+
+.home-button :hover {
+    border: 1px solid #F58840;
+}
+
+.font {
+    margin-left: 850px;
+    margin-top:250px;
+    font-size: 36px;
+}
+
+.font i:hover {
+    font-size:40px;
+}
+/* //ABOUT */
+.about {
+    margin-top:350px;
+    margin-left:65px;
+    background-color: #E8E8E8;
+    border: 2px solid gray;
+    width: 550px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.about-text {
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Bitter', serif;
+}
+
+.about-text p{
+    color:rgb(44, 43, 43);
+}
+
+.about-text h4 {
+    color:orangered;
+}
+
+.about-button {
+width: 200px;
+}
+
+.about-button button {
+    /* background-color:#E8E8E8 ; */
+    height: 30px;
+    width: 100px;
+    border-radius:10%;
+    margin-top:30px;
+}
+
+.resume {
+    position:absolute;
+    left:350px;
+}
+
+.Portfolio {
+    position:absolute;
+    left:200px;
+   background-color: #F58840;
+   color:whitesmoke;
+   border: 0px solid ;
+}
+
+.resume:hover {
+border:2px solid #F58840;
+}
+
+.Portfolio:hover {
+    border:2px solid black;
+ }
+
+ .about-text1 p{
+     border-radius: 10px;
+    font-family: 'Bitter', serif;
+    font-weight: bolder;
+     position: relative;
+     left: 650px;
+     bottom: 300px;
+     width: 600px;
+     font-size: 24px;
+     border: 3px solid #F58840;
+     text-align:justify;
+     text-indent:100px;
+     padding:24px;
+ }
+
+ .contact {
+     position: relative;
+     /* background-color: red; */
+     left:500px;
+     bottom:100px;
+     width: 430px;
+     /* border: 2px solid black; */
+ }
+
+ .contact label {
+    font-family: 'Courier New', Courier, monospace;
+ }
+
+ .contact input {
+     margin-top: 3px;
+     border-radius:5px ;
+     width: 400px;
+     border: 1px solid gray;
+     height: 30px;
+ }
+
+ .contact textarea {
+    border-radius:5px ;
+     margin-top:5px;
+     width: 400px;
+     height: 200px;
+ }
+
+ .contact button {
+     margin-top: 10px;
+     width: 405px;
+     height: 30px;
+     border-radius:5px ;
+     border: 1px solid gray;
+     background-color: #F58840;
+     color:whitesmoke;
+ }
